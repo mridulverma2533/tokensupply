@@ -13,7 +13,7 @@ app.use(bp.urlencoded({ extended: false }));
 
 // const indexTest = require("./helper/helper")
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3030;
 
 app.use(express.json());
 const userroutes = require("./routes/supplyroutes");
